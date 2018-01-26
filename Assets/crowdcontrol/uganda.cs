@@ -17,12 +17,12 @@ public class uganda : MonoBehaviour
         speed = Random.Range(0.2f, 1.8f);
         transform.localScale = new Vector3(1.2f - 0.2f * speed, 1.2f - 0.2f * speed + Random.Range(-0.2f, 0.2f), 2);
         speed += 3.0f;
-        print(speed);
     }
 
     public void sayQueen()
     {
-        audio.PlayOneShot(queen);
+        audio.clip = queen;
+        audio.PlayDelayed(Random.Range(0.0f, 0.4f));
     }
 
     void FollowMouse()

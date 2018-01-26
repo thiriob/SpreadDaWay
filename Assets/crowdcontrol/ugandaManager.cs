@@ -6,17 +6,17 @@ public class ugandaManager : MonoBehaviour
 {
 
     public GameObject ugandaPrefab;
-    private List<uganda> ugandas;
+    private List<GameObject> ugandas;
 
 	void Start () {
-		
+		ugandas = new List<GameObject>();
 	}
 
     void sayQueen()
     {
         foreach (var currentUganda in ugandas)
         {
-            
+            currentUganda.GetComponent<uganda>().sayQueen();
         }   
     }
 
@@ -26,8 +26,9 @@ public class ugandaManager : MonoBehaviour
 	    {
 	        GameObject obj = Instantiate(ugandaPrefab) as GameObject;
 
-	        ugandas.Add(obj.GetComponent<uganda>());
-
+	        ugandas.Add(obj);
 	    }
-	}
+	    if (Input.GetKeyDown(KeyCode.Q))
+            sayQueen();
+    }
 }
