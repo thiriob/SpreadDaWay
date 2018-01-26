@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/movements/movements.unity
     guid: 16f9183be98b33447a5c099e04014295
+  - enabled: 1
+    path: Assets/generation/scenes/generation.unity
+    guid: e4c926bf304a3a84ea001da1b87a3cfc

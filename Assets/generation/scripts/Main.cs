@@ -11,9 +11,12 @@ public class Main : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);
+    }
+
+    public void Load()
+    {
         for (int i = 0; i < Prefs.Length; i += 2)
             Params.Add(Prefs[i], Prefs[i + 1]);
-        //loadscene
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("generation");
     }
 }
