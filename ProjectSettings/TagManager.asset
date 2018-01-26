@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4015238563
+    locked: 0
+  - name: Decor
+    uniqueID: 2630597245
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: IG object
+    uniqueID: 2412326311
+    locked: 0
+  - name: UI
+    uniqueID: 1081692917
     locked: 0
