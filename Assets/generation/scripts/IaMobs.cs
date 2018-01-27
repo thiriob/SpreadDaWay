@@ -42,7 +42,7 @@ public class IaMobs : MonoBehaviour
         ChangeSpeed();
         InvokeRepeating("ChangeDirection", 0, DirectionInterval);
 
-        _name = Instantiate(NamePrefab, GameObject.Find("Canvas").transform);
+        _name = Instantiate(NamePrefab, GameObject.Find("NAMECONTAINER").transform);
         _name.name = name;
         _name.GetComponent<Text>().text = name;
     }

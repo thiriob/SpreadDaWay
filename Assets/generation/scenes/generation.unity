@@ -1745,7 +1745,7 @@ Prefab:
     - target: {fileID: 114895582816987090, guid: 2f7e48f4b27431344ac6ee6b85e01f24,
         type: 2}
       propertyPath: Prefs.Array.data[5]
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114895582816987090, guid: 2f7e48f4b27431344ac6ee6b85e01f24,
         type: 2}

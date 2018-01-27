@@ -32,10 +32,8 @@ public class ugandaManager : MonoBehaviour
 
     void PopUganda()
     {
-        print("there is still " + ugandas.Count + " ugandas left.");
         if (ugandas.Count > 0)
         {
-            print("destroying uganda");
             Destroy(ugandas.ElementAt(0));
             ugandas.RemoveAt(0);
         }
