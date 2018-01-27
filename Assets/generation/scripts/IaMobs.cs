@@ -11,7 +11,7 @@ public class IaMobs : MonoBehaviour
     public float DirectionInterval = 2;
     public float Tolerance = 0.1f;
 
-    public float Life = 100;
+    public float Life = 500;
 
     private Vector2 _tmpTarg = Vector2.zero;
     private Vector2 _x;
@@ -56,6 +56,12 @@ public class IaMobs : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("uganda"))
             Life--;
+        //Life -= coll.gameObject.SendMessage("AskDamage");
+    }
+    void OnCollisionExit2D(Collision2D coll)
+    {
+        if (coll.gameObject.CompareTag("uganda"))
+            Life = 500;
         //Life -= coll.gameObject.SendMessage("AskDamage");
     }
 }
