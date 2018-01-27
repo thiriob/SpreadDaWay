@@ -6,13 +6,6 @@ using Random = UnityEngine.Random;
 
 public class IaMobs : MonoBehaviour
 {
-    public enum TypeIA
-    {
-        Actif,
-        Passif
-    }
-
-    public TypeIA Type = TypeIA.Passif;
     public Vector2 Speed = new Vector2(1, 4);
     public float Interval = 2;
     public float Tolerance = 0.1f;
@@ -33,7 +26,7 @@ public class IaMobs : MonoBehaviour
     void Start()
     {
         SceneLoader loader = GameObject.Find("loader").GetComponent<SceneLoader>();
-        _x = new Vector2(loader.Center.x - loader.Size.x / 2, loader.Center.x + loader.Size.x / 2);
+        _x = new Vector2(loader.Center.x - (loader.Size.x / 2), loader.Center.x + (loader.Size.x / 2));
         _y = new Vector2(loader.Center.y - loader.Size.y / 2, loader.Center.y + loader.Size.y / 2);
         InvokeRepeating("ChangeDirection", 0, Interval);
     }
@@ -54,6 +47,6 @@ public class IaMobs : MonoBehaviour
                 GameObject.Find("ugandaManager").GetComponent<ugandaManager>().SendMessage("SpawnUganda", transform.position);
                 Destroy(this.gameObject);
             }
-        ChangeDirection();
+       // ChangeDirection();
     }
 }
