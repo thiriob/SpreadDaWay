@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ugandaManager : MonoBehaviour
 {
     public GameObject ugandaPrefab;
 
     public List<GameObject> ugandas = new List<GameObject>();
+    public Text nbUganda;
     private GameObject ucontain;
 
     void Start()
@@ -39,8 +41,9 @@ public class ugandaManager : MonoBehaviour
         }
     }
 
-    void Update()
-    {
+	void Update ()
+	{
+	    nbUganda.text = ugandas.Count.ToString();
         if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
