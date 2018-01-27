@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class SceneLoader : MonoBehaviour
 {
     private Dictionary<string, string> Params;
-    
+
     public Vector2 Center = Vector2.zero;
     public Vector2 Size = Vector2.one * 5;
 
@@ -23,7 +23,7 @@ public class SceneLoader : MonoBehaviour
     private GameObject _mobContainer;
     private Dictionary<string, GameObject> _mobDico = new Dictionary<string, GameObject>();
     private List<GameObject> _mobs = new List<GameObject>();
-
+    private NameGenerator _ng;
     void InitMap()
     {
         _map = new GameObject("map");
@@ -55,7 +55,9 @@ public class SceneLoader : MonoBehaviour
                 for (int i = 0; i < int.Parse(v.Value); i++)
                 {
                     Vector2 tmp = new Vector2(Random.Range(X.x, X.y), Random.Range(Y.x, Y.y));
-                    _mobs.Add(Instantiate(_mobDico[v.Key.Remove(0, 3)], tmp, Quaternion.identity, _mobContainer.transform));
+                    var obj = Instantiate(_mobDico[v.Key.Remove(0, 3)], tmp, Quaternion.identity, _mobContainer.transform);
+                    _mobs.Add(obj);
+                    obj.name = _ng.CreateUsername();
                 }
             }
         }
@@ -71,6 +73,7 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         Params = GameObject.Find("setter").GetComponent<Main>().Params;
+        _ng = gameObject.AddComponent<NameGenerator>();
         InitMap();
         SpawnMobs();
         SpawnUgandas();

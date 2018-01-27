@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class IaMobs : MonoBehaviour
@@ -13,12 +14,15 @@ public class IaMobs : MonoBehaviour
 
     public float Life = 500;
 
+    public GameObject NamePrefab;
+    public Vector3 NameOffset = new Vector3(0, 0.2f, 0);
+
     private Vector2 _tmpTarg = Vector2.zero;
     private Vector2 _x;
     private Vector2 _y;
     private float _speed = 0;
     private SceneLoader _loader;
-
+    private GameObject _name;
     void ChangeSpeed()
     {
         _speed = Random.Range(Speed.x, Speed.y);
@@ -37,10 +41,15 @@ public class IaMobs : MonoBehaviour
         _y = new Vector2(_loader.Center.y - (_loader.Size.y / 2), _loader.Center.y + (_loader.Size.y / 2));
         ChangeSpeed();
         InvokeRepeating("ChangeDirection", 0, DirectionInterval);
+
+        _name = Instantiate(NamePrefab, GameObject.Find("Canvas").transform);
+        _name.name = name;
+        _name.GetComponent<Text>().text = name;
     }
 
     void Update()
     {
+        _name.transform.position = transform.position + NameOffset;
         if (Math.Abs(transform.position.x - _tmpTarg.x) > Tolerance || Math.Abs(transform.position.y - _tmpTarg.y) > Tolerance)
             transform.position = Vector2.MoveTowards(transform.position, _tmpTarg, _speed * Time.deltaTime);
         else
