@@ -28,7 +28,13 @@ public class ugandaManager : MonoBehaviour
 
 	        ugandas.Add(obj);
 	    }
-	    if (Input.GetKeyDown(KeyCode.Q))
+	    if (Input.GetKey(KeyCode.D))
+	    {
+	        GameObject obj = Instantiate(ugandaPrefab) as GameObject;
+
+	        ugandas.Add(obj);
+	    }
+        if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
 }
