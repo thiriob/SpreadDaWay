@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4605951140198718}
   - component: {fileID: 212340430180758688}
   - component: {fileID: 60135699655195968}
-  - component: {fileID: 114622235967388678}
   - component: {fileID: 50614848565352202}
+  - component: {fileID: 114345499991204094}
   m_Layer: 0
   m_Name: Passif
   m_TagString: Untagged
@@ -62,7 +62,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!60 &60135699655195968
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -102,7 +102,7 @@ PolygonCollider2D:
       - {x: 1.02, y: -0.97999996}
       - {x: 1.28, y: -0.59}
       - {x: 1.28, y: 0.52}
---- !u!114 &114622235967388678
+--- !u!114 &114345499991204094
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -114,9 +114,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
-  Speed: 3
+  Speed: {x: 1, y: 3}
   Interval: 2
   Tolerance: 0.1
+  Life: 40
 --- !u!212 &212340430180758688
 SpriteRenderer:
   m_ObjectHideFlags: 1
