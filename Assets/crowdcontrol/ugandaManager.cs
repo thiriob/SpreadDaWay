@@ -42,7 +42,7 @@ public class ugandaManager : MonoBehaviour
 	void Update ()
 	{
 	    nbUganda.text = ugandas.Count.ToString();
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.A))
             sayQueen();
     }
 }

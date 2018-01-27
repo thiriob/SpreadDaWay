@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -20,8 +21,9 @@ public class SceneLoader : MonoBehaviour
 
     void SpawnMobs()
     {
-        Vector2 X = new Vector2(Center.x - Size.x / 2, Center.x + Size.x / 2);
-        Vector2 Y = new Vector2(Center.y - Size.y / 2, Center.y + Size.y / 2);
+        var sprites = Resources.LoadAll("MobSprite", typeof(Sprite));
+        Vector2 X = new Vector2(Center.x - Size.x / 2, Center.x + Size.x / 2 + 1);
+        Vector2 Y = new Vector2(Center.y - Size.y / 2, Center.y + Size.y / 2 + 1);
         _mobContainer = new GameObject("MOBCONTAINER");
         foreach (var v in Params)
         {
@@ -33,6 +35,13 @@ public class SceneLoader : MonoBehaviour
                     var obj = Instantiate(Resources.Load(v.Key.Remove(0, 3), typeof(GameObject)) as GameObject, tmp, Quaternion.identity, _mobContainer.transform);
                     _mobs.Add(obj);
                     obj.name = _ng.CreateUsername();
+                    obj.GetComponent<SpriteRenderer>().sprite = (Sprite)sprites[Random.Range(0, sprites.Length)];
+                    var ia = obj.GetComponent<IaMobs>();
+                    ia.DirectionInterval = Random.Range(2, 7);
+                    ia.Venere = Random.Range(0, 20);
+                    ia.Life = Random.Range(200, 1000);
+                    ia.Speed = new Vector2(Random.Range(0.5f, 1.5f), Random.Range(1.5f, 4));
+                    ia.SpeedInterval = new Vector2(Random.Range(0.5f, 1.5f), Random.Range(3, 6));
                 }
             }
         }
