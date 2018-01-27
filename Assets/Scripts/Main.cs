@@ -21,6 +21,6 @@ public class Main : MonoBehaviour
         for (int i = 0; i < Prefs.Length; i += 2)
             Params.Add(Prefs[i], Prefs[i + 1]);
         if (LoadScene)
-            SceneManager.LoadScene("generation");
+            SceneManager.LoadScene("MainGame");
     }
 }
