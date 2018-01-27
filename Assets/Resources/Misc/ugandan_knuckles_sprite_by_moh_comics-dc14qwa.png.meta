@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: b3542d24fbc521541965e916f8c850c9
+timeCreated: 1517090766
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_0
+    21300002: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_1
+    21300004: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_2
+    21300006: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_3
+    21300008: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_4
+    21300010: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_5
+    21300012: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_6
+    21300014: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_7
+    21300016: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_8
+    21300018: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_9
+    21300020: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_10
+    21300022: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_11
+    21300024: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_12
+    21300026: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_13
+    21300028: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_14
+    21300030: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_15
+    21300032: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_16
+    21300034: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_17
+    21300036: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_18
+    21300038: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_19
+    21300040: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_20
+    21300042: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_21
+    21300044: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_22
+    21300046: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_23
+    21300048: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_24
+    21300050: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_25
+    21300052: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_26
+    21300054: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_27
+    21300056: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_28
+    21300058: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_29
+    21300060: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_30
+    21300062: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_31
+    21300064: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_32
+    21300066: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_33
+    21300068: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_34
+    21300070: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_35
+    21300072: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_36
+    21300074: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_37
+    21300076: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_38
+    21300078: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_39
+    21300080: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_40
+    21300082: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_41
+    21300084: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_42
+    21300086: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_43
+    21300088: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_44
+    21300090: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_45
+    21300092: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_46
+    21300094: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_47
+    21300096: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_48
+    21300098: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_49
+    21300100: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_50
+    21300102: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_51
+    21300104: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_52
+    21300106: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_53
+    21300108: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_54
+    21300110: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_55
+    21300112: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_56
+    21300114: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_57
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 135, z: 651, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 136
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 136
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 136
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 129
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 129
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 129
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 131
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 135
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 129
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 131
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_13
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 130
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_14
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 129
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 99
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 99
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 100
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 101
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_21
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 92
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 92
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 92
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 91
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 91
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_27
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_28
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_30
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_31
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_32
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_33
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 91
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 44
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_37
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 44
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 44
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_39
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 44
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 44
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 44
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_43
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 44
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_44
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 44
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 44
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_46
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 44
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_47
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_48
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 44
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_49
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 44
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_50
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 44
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_51
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_54
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_55
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 16
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 10
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ugandan_knuckles_sprite_by_moh_comics-dc14qwa_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 10
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
