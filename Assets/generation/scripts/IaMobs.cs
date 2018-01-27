@@ -17,7 +17,7 @@ public class IaMobs : MonoBehaviour
     public float Life = 500;
 
     public GameObject NamePrefab;
-    public Vector3 NameOffset = new Vector3(0, 0.2f, 0);
+    private Vector3 _nameOffset = new Vector3(0, 0.2f, 0);
 
     private Vector2 _tmpTarg = Vector2.zero;
     private Vector2 _x;
@@ -49,7 +49,7 @@ public class IaMobs : MonoBehaviour
 
     void Start()
     {
-        transform.localScale = new Vector3(0.1f + Life / 3000, 0.1f + Life / 3000);
+        transform.localScale = new Vector3(0.1f + Life / 4000, 0.1f + Life / 4000);
         Queen = GameObject.Find("Queen").transform;
         _loader = GameObject.Find("loader").GetComponent<SceneLoader>();
         _x = new Vector2(_loader.Center.x - (_loader.Size.x / 2), _loader.Center.x + (_loader.Size.x / 2) + 1);
@@ -59,11 +59,12 @@ public class IaMobs : MonoBehaviour
         _name = Instantiate(NamePrefab, GameObject.Find("NAMECONTAINER").transform);
         _name.name = name;
         _name.GetComponent<Text>().text = name;
+        _nameOffset = new Vector3(0, 0.2f + Life / 2000, 0);
     }
 
     void Update()
     {
-        _name.transform.position = transform.position + NameOffset;
+        _name.transform.position = transform.position + _nameOffset;
         if (Math.Abs(transform.position.x - _tmpTarg.x) > Tolerance || Math.Abs(transform.position.y - _tmpTarg.y) > Tolerance)
             transform.position = Vector2.MoveTowards(transform.position, _tmpTarg, _speed * Time.deltaTime);
         else
