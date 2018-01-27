@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0000f2321b8d9468b825265334edc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadScene: 1
   Prefs:
   - mapName
   - test
@@ -59,4 +60,4 @@ MonoBehaviour:
   - mobActif
   - 5
   - mobuganda
-  - 10
+  - 100
