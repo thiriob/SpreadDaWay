@@ -26,6 +26,8 @@ public class SceneLoader : MonoBehaviour
         _map = new GameObject("map");
         _map.transform.position = Vector3.forward;
         var tmp = _map.AddComponent<SpriteRenderer>();
+        tmp.sortingLayerID = 0;
+        tmp.sortingLayerName = "Background";
         foreach (var m in MapSprites)
             if (m.name == Params["mapName"])
             {
