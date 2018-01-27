@@ -16,22 +16,20 @@ public class QueenController : MonoBehaviour {
     void FixedUpdate () {
 
         /* Left/right/up/down movements */
-        var movementVector = Vector2.right * Input.GetAxis("Horizontal");
+        Vector2 movementVector = new Vector2();
+
+        movementVector += Vector2.right * Input.GetAxis("Horizontal");
         movementVector += Vector2.up * Input.GetAxis("Vertical");
         movementVector *= speed * Time.deltaTime;
         float sizeMapDiv2x = map.Size.x / 2.0f;
         float sizeMapDiv2y = map.Size.y / 2.0f;
-        if (movementVector.x > map.Center.x + sizeMapDiv2x) {
-            movementVector.x = map.Center.x + sizeMapDiv2x;
+        float queenXPos = transform.position.x + movementVector.x;
+        float queenYPos = transform.position.y + movementVector.y;
+        if (queenXPos > map.Center.x + sizeMapDiv2x || queenXPos < map.Center.x - sizeMapDiv2x) {
+            movementVector.x = 0;
         }
-        if (movementVector.x < map.Center.x - sizeMapDiv2x) {
-            movementVector.x = map.Center.x - sizeMapDiv2x;
-        }
-        if (movementVector.y > map.Center.y + sizeMapDiv2y) {
-            movementVector.y = map.Center.y + sizeMapDiv2y;
-        }
-        if (movementVector.y < map.Center.y - sizeMapDiv2y) {
-            movementVector.y = map.Center.y - sizeMapDiv2y;
+        if (queenYPos > map.Center.y + sizeMapDiv2y || queenYPos < map.Center.y - sizeMapDiv2y) {
+            movementVector.y = 0;
         }
         transform.Translate(movementVector);
 
