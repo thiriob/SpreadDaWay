@@ -50,7 +50,7 @@ public class IaMobs : MonoBehaviour
     void Start()
     {
         render = GetComponent<SpriteRenderer>();
-        transform.localScale = new Vector3(1f + Life / 4000, 1f + Life / 4000);
+        transform.localScale = new Vector3(0.5f + Life / 1000, 0.5f + Life / 1000);
         Queen = GameObject.Find("Queen").transform;
         _loader = GameObject.Find("loader").GetComponent<SceneLoader>();
         _x = new Vector2(_loader.Center.x - (_loader.Size.x / 2), _loader.Center.x + (_loader.Size.x / 2) + 1);

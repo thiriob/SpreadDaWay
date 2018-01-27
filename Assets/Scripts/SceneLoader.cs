@@ -40,7 +40,7 @@ public class SceneLoader : MonoBehaviour
                     ia.DirectionInterval = Random.Range(2, 7);
                     ia.Venere = Random.Range(0, 20);
                     ia.Life = Random.Range(200, 1000);
-                    ia.Speed = new Vector2(Random.Range(0.5f, 1.5f), Random.Range(1.5f, 4));
+                    ia.Speed = new Vector2(Random.Range(0.5f, 1.5f), Random.Range(2f, 6));
                     ia.SpeedInterval = new Vector2(Random.Range(0.5f, 1.5f), Random.Range(3, 6));
                 }
             }
