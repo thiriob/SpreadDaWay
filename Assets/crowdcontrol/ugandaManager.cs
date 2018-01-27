@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ugandaManager : MonoBehaviour
@@ -27,8 +28,24 @@ public class ugandaManager : MonoBehaviour
         ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity, ucontain.transform));
     }
 
+<<<<<<< Updated upstream
     void Update()
     {
+=======
+    void PopUganda()
+    {
+        print("there is still " + ugandas.Count + " ugandas left.");
+        if (ugandas.Count > 0)
+        {
+            print("destroying uganda");
+            Destroy(ugandas.ElementAt(0));
+            ugandas.RemoveAt(0);
+        }
+    }
+
+	void Update ()
+	{
+>>>>>>> Stashed changes
         if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
