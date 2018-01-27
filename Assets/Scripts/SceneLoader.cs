@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class SceneLoader : MonoBehaviour
 {
-    private Dictionary<string, string> Params;
+    private Dictionary<string, string> _params;
 
     public Vector2 Center = Vector2.zero;
     public Vector2 Size = Vector2.one * 5;
@@ -25,7 +25,7 @@ public class SceneLoader : MonoBehaviour
         Vector2 X = new Vector2(Center.x - Size.x / 2, Center.x + Size.x / 2 + 1);
         Vector2 Y = new Vector2(Center.y - Size.y / 2, Center.y + Size.y / 2 + 1);
         _mobContainer = new GameObject("MOBCONTAINER");
-        foreach (var v in Params)
+        foreach (var v in _params)
         {
             if (String.Compare(v.Key, 0, "mob", 0, 3) == 0)
             {
@@ -60,9 +60,9 @@ public class SceneLoader : MonoBehaviour
         obj.transform.SetParent(GameObject.Find("Canvas").transform);
         obj.transform.position = Vector3.zero;
         obj.transform.localScale = Vector3.one * 0.1f;
-        Params = GameObject.Find("settings").GetComponent<Main>().Params;
+        _params = GameObject.Find("settings").GetComponent<Main>().Params;
         _ng = gameObject.AddComponent<NameGenerator>();
-        Instantiate(Resources.Load("Maps/" + Params["mapName"], typeof(GameObject)) as GameObject);
+        Instantiate(Resources.Load("Maps/" + _params["mapName"], typeof(GameObject)) as GameObject);
         SpawnMobs();
         SpawnUgandas();
     }

@@ -25,6 +25,7 @@ public class IaMobs : MonoBehaviour
     private SceneLoader _loader;
     private GameObject _name;
     private bool _attack = false;
+    private SpriteRenderer render;
 
     void ChangeSpeed()
     {
@@ -48,7 +49,8 @@ public class IaMobs : MonoBehaviour
 
     void Start()
     {
-        transform.localScale = new Vector3(0.1f + Life / 4000, 0.1f + Life / 4000);
+        render = GetComponent<SpriteRenderer>();
+        transform.localScale = new Vector3(1f + Life / 4000, 1f + Life / 4000);
         Queen = GameObject.Find("Queen").transform;
         _loader = GameObject.Find("loader").GetComponent<SceneLoader>();
         _x = new Vector2(_loader.Center.x - (_loader.Size.x / 2), _loader.Center.x + (_loader.Size.x / 2) + 1);
@@ -65,6 +67,7 @@ public class IaMobs : MonoBehaviour
 
     void Update()
     {
+        render.flipX = (_tmpTarg.x < transform.position.x);
         _name.transform.position = transform.position + _nameOffset;
         if (Math.Abs(transform.position.x - _tmpTarg.x) > Tolerance || Math.Abs(transform.position.y - _tmpTarg.y) > Tolerance)
             transform.position = Vector2.MoveTowards(transform.position, _tmpTarg, _speed * Time.deltaTime);
@@ -73,7 +76,6 @@ public class IaMobs : MonoBehaviour
             _attack = false;
             ChangeDirection();
         }
-
         if (Life <= 0)
         {
             GameObject.Find("ugandaManager").GetComponent<ugandaManager>().SendMessage("SpawnUganda", transform.position);

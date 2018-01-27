@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50656944522331542}
   - component: {fileID: 82910406272623948}
   - component: {fileID: 58995439939133142}
+  - component: {fileID: 95789022322525990}
   m_Layer: 0
   m_Name: uganda
   m_TagString: uganda
@@ -159,6 +160,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95789022322525990
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931492324362788}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1eda9cf090d196f4e8c72e160e8a12f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114158060774955752
 MonoBehaviour:
   m_ObjectHideFlags: 1
