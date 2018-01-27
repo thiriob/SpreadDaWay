@@ -90,9 +90,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: {x: 1, y: 3}
-  Interval: 2
+  SpeedInterval: {x: 1, y: 6}
+  DirectionInterval: 5
   Tolerance: 0.1
-  Life: 20
+  Life: 500
 --- !u!212 &212340430180758688
 SpriteRenderer:
   m_ObjectHideFlags: 1

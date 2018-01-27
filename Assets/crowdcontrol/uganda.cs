@@ -25,6 +25,11 @@ public class uganda : MonoBehaviour
         audio.PlayDelayed(Random.Range(0.0f, 0.4f));
     }
 
+    float AskDamage()
+    {
+        return (1);
+    }
+
     void FollowMouse()
     {
         transform.position = Vector2.MoveTowards(transform.position, cam.ScreenToWorldPoint(Input.mousePosition), speed * Time.deltaTime);

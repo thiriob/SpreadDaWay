@@ -52,11 +52,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Center: {x: 0, y: 0}
-  Size: {x: 8, y: 8}
+  Size: {x: 15, y: 15}
   MapSprites:
   - {fileID: 21300000, guid: 84c5b826bbedcc54ebe32754ebadbfd7, type: 3}
   MobPrefabs:
   - {fileID: 1763994050699596, guid: aa63019f955f7c34588e9ea627fe4ae8, type: 2}
   - {fileID: 1553967553600220, guid: 5924c64962db08b4da34bbfedc6aa940, type: 2}
   - {fileID: 1931492324362788, guid: 223fabc15381ea8499c8619a4445fa97, type: 2}
-  _mobs: []
+  UgandaStartPos: {x: 0, y: 0}
+  UgandaNumber: 5
