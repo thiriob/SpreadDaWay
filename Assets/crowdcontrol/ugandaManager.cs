@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class ugandaManager : MonoBehaviour
 {
-
     public GameObject ugandaPrefab;
-    private List<GameObject> ugandas;
-
-	void Start () {
-		ugandas = new List<GameObject>();
-	}
+    private List<GameObject> ugandas = new List<GameObject>();
 
     void sayQueen()
     {
@@ -20,20 +15,13 @@ public class ugandaManager : MonoBehaviour
         }   
     }
 
+    void SpawnUganda(Vector3 pos)
+    {
+        ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity));
+    }
+
 	void Update ()
 	{
-	    if (Input.GetKeyDown(KeyCode.S))
-	    {
-	        GameObject obj = Instantiate(ugandaPrefab) as GameObject;
-
-	        ugandas.Add(obj);
-	    }
-	    if (Input.GetKey(KeyCode.D))
-	    {
-	        GameObject obj = Instantiate(ugandaPrefab) as GameObject;
-
-	        ugandas.Add(obj);
-	    }
         if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
