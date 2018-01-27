@@ -7,7 +7,7 @@ public class ugandaManager : MonoBehaviour
 {
     public GameObject ugandaPrefab;
 
-    private List<GameObject> ugandas = new List<GameObject>();
+    public List<GameObject> ugandas = new List<GameObject>();
     private GameObject ucontain;
 
     void Start()
@@ -28,10 +28,6 @@ public class ugandaManager : MonoBehaviour
         ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity, ucontain.transform));
     }
 
-<<<<<<< Updated upstream
-    void Update()
-    {
-=======
     void PopUganda()
     {
         print("there is still " + ugandas.Count + " ugandas left.");
@@ -43,9 +39,8 @@ public class ugandaManager : MonoBehaviour
         }
     }
 
-	void Update ()
-	{
->>>>>>> Stashed changes
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
