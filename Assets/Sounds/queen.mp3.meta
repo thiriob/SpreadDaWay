@@ -3,8 +3,13 @@ fileFormatVersion: 2
 guid: f70100edb2a1445558e3ebe06ce0cfc6
 timeCreated: 1517004005
 =======
+<<<<<<< HEAD
+guid: d006d031dcdc34e43ac58f728316239f
+timeCreated: 1517002083
+=======
 guid: e1f5dec2474f0ce42ad23dc759af435a
 timeCreated: 1517002018
+>>>>>>> master
 >>>>>>> Stashed changes
 licenseType: Free
 AudioImporter:

@@ -9,17 +9,20 @@ using Random = UnityEngine.Random;
 public class SceneLoader : MonoBehaviour
 {
     private Dictionary<string, string> Params;
+    
     public Vector2 Center = Vector2.zero;
     public Vector2 Size = Vector2.one * 5;
 
     public Sprite[] MapSprites = { };
     public GameObject[] MobPrefabs = { };
 
+    public Vector3 UgandaStartPos;
+    public int UgandaNumber;
+
     private GameObject _map;
     private GameObject _mobContainer;
     private Dictionary<string, GameObject> _mobDico = new Dictionary<string, GameObject>();
-
-    public List<GameObject> _mobs = new List<GameObject>();
+    private List<GameObject> _mobs = new List<GameObject>();
 
     void InitMap()
     {
@@ -58,14 +61,22 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
+    void SpawnUgandas()
+    {
+        GameObject manager = GameObject.Find("ugandaManager");
+        for (int i = 0; i < UgandaNumber; i++)
+            manager.SendMessage("SpawnUganda", UgandaStartPos);
+    }
+
     void Start()
     {
         Params = GameObject.Find("setter").GetComponent<Main>().Params;
         InitMap();
         SpawnMobs();
+        SpawnUgandas();
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         Gizmos.color = new Color(1, 1, 0, 0.75F);
         Gizmos.DrawWireCube(Center, Size);

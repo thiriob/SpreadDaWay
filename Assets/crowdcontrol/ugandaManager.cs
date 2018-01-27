@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ugandaManager : MonoBehaviour
 {
     public GameObject ugandaPrefab;
 
-    private List<GameObject> ugandas = new List<GameObject>();
+    public List<GameObject> ugandas = new List<GameObject>();
     private GameObject ucontain;
 
     void Start()
@@ -25,6 +26,17 @@ public class ugandaManager : MonoBehaviour
     void SpawnUganda(Vector3 pos)
     {
         ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity, ucontain.transform));
+    }
+
+    void PopUganda()
+    {
+        print("there is still " + ugandas.Count + " ugandas left.");
+        if (ugandas.Count > 0)
+        {
+            print("destroying uganda");
+            Destroy(ugandas.ElementAt(0));
+            ugandas.RemoveAt(0);
+        }
     }
 
     void Update()
