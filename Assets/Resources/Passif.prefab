@@ -95,8 +95,9 @@ MonoBehaviour:
   DirectionInterval: 5
   Tolerance: 0.1
   Venere: 10
+  LifeMax: 500
   Life: 500
-  NamePrefab: {fileID: 1254719071732368, guid: 8568b75548abc8f40aa9ded6d228c93f, type: 2}
+  NamePrefab: {fileID: 1254719071732368, guid: 66c526904a832ae45876aada3fce70d8, type: 2}
 --- !u!212 &212187308149362122
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class countDown : MonoBehaviour
 {
-    float time = 8f;
+    float time = 10f;
     private Image img;
     private GameObject umanager;
 

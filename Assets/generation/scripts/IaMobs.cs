@@ -14,7 +14,8 @@ public class IaMobs : MonoBehaviour
     public float Tolerance = 0.1f;
     public float Venere = 50;
 
-    public float Life = 500;
+    public float LifeMax = 500f;
+    public float Life;
 
     public GameObject NamePrefab;
     private Vector3 _nameOffset = new Vector3(0, 0.2f, 0);
@@ -60,6 +61,8 @@ public class IaMobs : MonoBehaviour
         _name.name = name;
         _name.GetComponent<Text>().text = name;
         _nameOffset = new Vector3(0, 0.2f + Life / 2000, 0);
+
+        Life = LifeMax;
     }
 
     void Update()
@@ -78,6 +81,10 @@ public class IaMobs : MonoBehaviour
             GameObject.Find("ugandaManager").GetComponent<ugandaManager>().SendMessage("SpawnUganda", transform.position);
             Destroy(this.gameObject);
         }
+        else if (Life < LifeMax)
+        {
+            Life += 10 * Time.deltaTime;
+        }
     }
 
     void OnDestroy()
@@ -89,13 +96,6 @@ public class IaMobs : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("uganda"))
             Life--;
-        //Life -= coll.gameObject.SendMessage("AskDamage");
-    }
-    void OnCollisionExit2D(Collision2D coll)
-    {
-        /* if (coll.gameObject.CompareTag("uganda"))
-             Life = 500;
-             */
         //Life -= coll.gameObject.SendMessage("AskDamage");
     }
 }
