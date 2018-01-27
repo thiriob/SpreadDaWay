@@ -5,23 +5,30 @@ using UnityEngine;
 public class ugandaManager : MonoBehaviour
 {
     public GameObject ugandaPrefab;
+
     private List<GameObject> ugandas = new List<GameObject>();
+    private GameObject ucontain;
+
+    void Start()
+    {
+        ucontain = new GameObject("UGANDACONTAINER");
+    }
 
     void sayQueen()
     {
         foreach (var currentUganda in ugandas)
         {
             currentUganda.GetComponent<uganda>().sayQueen();
-        }   
+        }
     }
 
     void SpawnUganda(Vector3 pos)
     {
-        ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity));
+        ugandas.Add(Instantiate(ugandaPrefab, pos, Quaternion.identity, ucontain.transform));
     }
 
-	void Update ()
-	{
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Q))
             sayQueen();
     }
