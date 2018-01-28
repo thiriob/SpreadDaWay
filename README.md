@@ -6,9 +6,7 @@ Entry for **Global Game Jam 2018**
 
 Theme *Transmission*
 
-
-
-
+https://globalgamejam.org/2018/games/spread-de-wae
 
 
 Builds
