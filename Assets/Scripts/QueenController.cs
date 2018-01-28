@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class QueenController : MonoBehaviour
 {
 
     public float Life;
+    float LifeMax = 100f;
 
     public SceneLoader Map;
+    public Image lifeBar;
     float _sizeMapDiv2X;
     float _sizeMapDiv2Y;
     public float Speed = 2.0f;
@@ -22,29 +25,30 @@ public class QueenController : MonoBehaviour
         _sizeMapDiv2X = Map.Size.x / 2.0f;
         _sizeMapDiv2Y = Map.Size.y / 2.0f;
         _anim = GetComponent<Animator>();
+        Life = LifeMax;
     }
 
     void Update()
     {
         if (Life <= 0)
         {
-            print("perdu");
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver");
         }
+        /*else if (Life < LifeMax)
+            Life += Time.deltaTime;*/
+        lifeBar.fillAmount = Life / LifeMax;
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.CompareTag("mob"))
         {
-            Life--;
+            Life -= Time.deltaTime * 25;
         }
     }
 
     void FixedUpdate()
     {
-
-        /* Left/right/up/down movements */
         MovementVector = Vector2.zero;
 
         MovementVector += Vector2.right * Input.GetAxisRaw("Horizontal");

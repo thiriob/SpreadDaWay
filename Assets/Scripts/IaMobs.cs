@@ -85,6 +85,7 @@ public class IaMobs : MonoBehaviour
         {
             Life += 10 * Time.deltaTime;
         }
+        render.color = new Color(1, Life / LifeMax + 0.3f, Life / LifeMax + 0.2f);
     }
 
     void OnDestroy()

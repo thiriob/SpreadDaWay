@@ -57,6 +57,7 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         var obj = new GameObject("NAMECONTAINER");
+        obj.AddComponent<NbPeople>();
         obj.transform.SetParent(GameObject.Find("Canvas").transform);
         obj.transform.position = Vector3.zero;
         obj.transform.localScale = Vector3.one * 0.1f;
