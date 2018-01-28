@@ -250,6 +250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 367160827}
+  - component: {fileID: 367160828}
   m_Layer: 5
   m_Name: Level2
   m_TagString: Untagged
@@ -275,6 +276,23 @@ RectTransform:
   m_AnchoredPosition: {x: -67971.586, y: -35850.863}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &367160828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367160826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0000f2321b8d9468b825265334edc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadScene: 1
+  Prefs:
+  - mapName
+  - Map1
+  - mobPassif
+  - 56
 --- !u!1 &368218428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,7 +1211,7 @@ MonoBehaviour:
   - mapName
   - test
   - mobPassif
-  - 10
+  - 3
   - mapSize
   - 15;15
   - mapCenter
