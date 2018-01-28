@@ -1172,6 +1172,11 @@ Prefab:
       propertyPath: LifeBar
       value: 
       objectReference: {fileID: 2104284476}
+    - target: {fileID: 114473114411870226, guid: d6167193f229846069335f551cb75f32,
+        type: 2}
+      propertyPath: LifeBar
+      value: 
+      objectReference: {fileID: 2104284476}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6167193f229846069335f551cb75f32, type: 2}
   m_IsPrefabParent: 0
