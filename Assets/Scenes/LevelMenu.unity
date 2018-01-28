@@ -146,6 +146,10 @@ MonoBehaviour:
   - Map1
   - mobPassif
   - 20
+  - mapSize
+  - 20;19.6
+  - mapCenter
+  - -2.3;-0.5
 --- !u!224 &276727697
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1190,6 +1194,10 @@ MonoBehaviour:
   - test
   - mobPassif
   - 10
+  - mapSize
+  - 15;15
+  - mapCenter
+  - 0;0
 --- !u!224 &1902740656
 RectTransform:
   m_ObjectHideFlags: 0

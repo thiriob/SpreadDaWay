@@ -53,6 +53,14 @@ public class SceneLoader : MonoBehaviour
             manager.SendMessage("SpawnUganda", UgandaStartPos);
     }
 
+    void parseSize()
+    {
+        var t = _params["mapSize"].Split(';');
+        Size = new Vector2(float.Parse(t[0]), float.Parse(t[1]));
+        t = _params["mapCenter"].Split(';');
+        Center = new Vector2(float.Parse(t[0]), float.Parse(t[1]));
+    }
+
     void Start()
     {
         var obj = new GameObject("NAMECONTAINER");
@@ -63,6 +71,7 @@ public class SceneLoader : MonoBehaviour
         _params = GameObject.Find("settings").GetComponent<Main>().Params;
         _ng = gameObject.AddComponent<NameGenerator>();
         Instantiate(Resources.Load("MapsPrefab/" + _params["mapName"], typeof(GameObject)) as GameObject);
+        parseSize();
         SpawnMobs();
         SpawnUgandas();
     }
