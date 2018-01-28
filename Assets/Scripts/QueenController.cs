@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Animations;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,7 +9,7 @@ public class QueenController : MonoBehaviour
     float LifeMax = 100f;
 
     public SceneLoader Map;
-    public Image lifeBar;
+    public Image LifeBar;
     float _sizeMapDiv2X;
     float _sizeMapDiv2Y;
     public float Speed = 2.0f;
@@ -36,7 +33,7 @@ public class QueenController : MonoBehaviour
         }
         /*else if (Life < LifeMax)
             Life += Time.deltaTime;*/
-        lifeBar.fillAmount = Life / LifeMax;
+        LifeBar.fillAmount = Life / LifeMax;
     }
 
     void OnCollisionStay2D(Collision2D coll)
@@ -69,7 +66,6 @@ public class QueenController : MonoBehaviour
         transform.Translate(MovementVector);
 
         /* Mouse related movements */
-        var mousePosX = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
         var renderer = GetComponent<SpriteRenderer>();
         if (MovementVector.x > 0) renderer.flipX = true;
         if (MovementVector.x < 0) renderer.flipX = false;
