@@ -62,7 +62,7 @@ public class SceneLoader : MonoBehaviour
         obj.transform.localScale = Vector3.one * 0.1f;
         _params = GameObject.Find("settings").GetComponent<Main>().Params;
         _ng = gameObject.AddComponent<NameGenerator>();
-        Instantiate(Resources.Load("Maps/" + _params["mapName"], typeof(GameObject)) as GameObject);
+        Instantiate(Resources.Load("MapsPrefab/" + _params["mapName"], typeof(GameObject)) as GameObject);
         SpawnMobs();
         SpawnUgandas();
     }
