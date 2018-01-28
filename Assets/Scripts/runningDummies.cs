@@ -4,27 +4,27 @@ using UnityEngine;
 
 public class runningDummies : MonoBehaviour
 {
-    private SpriteRenderer render;
-    private AudioSource audio;
-    private float dir;
+    private SpriteRenderer _render;
+    private AudioSource _audio;
+    private float _dir;
 
 	void Start ()
 	{
-	    render = GetComponent<SpriteRenderer>();
-	    audio = GetComponent<AudioSource>();
-	    dir = Random.Range(2.5f, 3.5f);
-	    audio.PlayDelayed(Random.Range(2f, 2.5f));
+	    _render = GetComponent<SpriteRenderer>();
+	    _audio = GetComponent<AudioSource>();
+	    _dir = Random.Range(2.5f, 3.5f);
+	    _audio.PlayDelayed(Random.Range(2f, 2.5f));
     }
 	
 	void FixedUpdate ()
 	{
-	    transform.position += Vector3.right * dir * Time.deltaTime;
+	    transform.position += Vector3.right * _dir * Time.deltaTime;
 	}
 
     void OnBecameInvisible()
     {
-        dir *= -1;
-        render.flipX = !render.flipX;
-        audio.PlayDelayed(Random.Range(0f, 1.5f));
+        _dir *= -1;
+        _render.flipX = !_render.flipX;
+        _audio.PlayDelayed(Random.Range(0f, 1.5f));
     }
 }
