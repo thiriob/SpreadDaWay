@@ -13,6 +13,4 @@ Theme *Transmission*
 
 Builds
 -
-Linux : 
-
-Windows :
+https://github.com/thiriob/ggj18/releases/tag/0.1
