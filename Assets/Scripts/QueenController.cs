@@ -14,7 +14,9 @@ public class QueenController : MonoBehaviour
     float _sizeMapDiv2Y;
     public float Speed = 2.0f;
     public Vector2 MovementVector;
-
+    public float soundTimer = 3f;
+    public AudioClip[] audios;
+    private AudioSource audio;
     private Animator _anim;
 
     void Start()
@@ -23,6 +25,12 @@ public class QueenController : MonoBehaviour
         _sizeMapDiv2Y = Map.Size.y / 2.0f;
         _anim = GetComponent<Animator>();
         Life = LifeMax;
+        audio = GetComponent<AudioSource>();
+    }
+
+    void playRandomAudio()
+    {
+        audio.PlayOneShot(audios[Random.Range(0, audios.Length)]);
     }
 
     void Update()
@@ -33,6 +41,13 @@ public class QueenController : MonoBehaviour
         }
         /*else if (Life < LifeMax)
             Life += Time.deltaTime;*/
+        if (soundTimer > 0f)
+            soundTimer -= Time.deltaTime;
+        else
+        {
+            soundTimer += Random.Range(1f, 4f);
+            playRandomAudio();
+        }
         LifeBar.fillAmount = Life / LifeMax;
     }
 

@@ -10,7 +10,6 @@ public class Main : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
         if (!LoadScene)
             Load();
     }
@@ -19,6 +18,8 @@ public class Main : MonoBehaviour
     {
         for (int i = 0; i < Prefs.Length; i += 2)
             Params.Add(Prefs[i], Prefs[i + 1]);
+        gameObject.name = "settings";
+        DontDestroyOnLoad(transform.gameObject);
         if (LoadScene)
             SceneManager.LoadScene("MainGame");
     }

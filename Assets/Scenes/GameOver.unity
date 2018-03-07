@@ -222,8 +222,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3f0f82dab219a4b8da6d8bab894a5e48, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 440459422}
   - component: {fileID: 440459421}
   - component: {fileID: 440459425}
+  - component: {fileID: 440459426}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -481,6 +482,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e3f5f591a818e428020c3b5b778d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &440459426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 440459420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1dc758d388b1b4d845cbfd04c5dc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &610104031

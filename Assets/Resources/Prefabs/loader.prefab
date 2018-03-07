@@ -54,4 +54,4 @@ MonoBehaviour:
   Center: {x: 0, y: 0}
   Size: {x: 15, y: 15}
   UgandaStartPos: {x: 0, y: 0, z: 0}
-  UgandaNumber: 5
+  UgandaNumber: 10

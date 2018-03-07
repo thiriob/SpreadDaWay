@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class menuManager : MonoBehaviour
 {
@@ -9,7 +10,10 @@ public class menuManager : MonoBehaviour
     }
 
     public void onStartClicked() {
-        Setter.SendMessage("Load");
-        //SceneManager.LoadScene("movements");
+    }
+
+    public void loadScene(string s)
+    {
+        SceneManager.LoadScene(s);
     }
 }
