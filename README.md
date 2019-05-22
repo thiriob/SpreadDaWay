@@ -1,6 +1,6 @@
 Spread Da Wae
 =
-You're peacefully playing VRchat when a strange red ugandan knuckle assault you. Not long after you've became their queen and are trying to contamine everyone.
+You're peacefully playing VRchat when a strange red uganda knuckle assault you. Not long after, you become their queen and try to convert everyone.
 
 Entry for **Global Game Jam 2018**
 
